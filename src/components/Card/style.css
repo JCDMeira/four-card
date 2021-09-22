@@ -53,6 +53,23 @@
     width: 100%;
     max-width: 35rem;
     height: 25rem;
+    padding: 2.8rem 3.25rem;
+  }
+
+  .card p {
+    font-weight: normal;
+    font-size: 13.2px;
+    line-height: 22px;
+    color: #a3a5ae;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+
+  .card img {
+    margin-top: 4rem;
+    margin-right: 0rem;
+    float: right;
+    height: 6.4rem;
   }
 
   .color-orange {
