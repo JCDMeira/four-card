@@ -47,3 +47,18 @@
 .color-blue {
   border-top: 3px solid #549ef2;
 }
+
+@media (min-width: 1200px) {
+  .card {
+    width: 100%;
+    max-width: 35rem;
+    height: 25rem;
+  }
+
+  .color-orange {
+    margin-top: 3rem;
+  }
+  .color-blue {
+    margin-left: -3.8rem;
+  }
+}
