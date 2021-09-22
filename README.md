@@ -40,15 +40,14 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-<!-- ### result of my work
+### result of my work
 
-<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>  -->
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>
 
 ### Links
 
-<!--
-- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/social-proof-with-reactjs-fOSUMfzW_)
-- Live Site URL: [check the result ](https://jcdmeira-social-proof.netlify.app) -->
+- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/four-cards-with-reactjs-ZfgqtqlIl)
+- Live Site URL: [check the result ](https://jdcmeira-four-card.netlify.app)
 
 - My figma design: [Figma](https://www.figma.com/file/hsLKzISvAAFDmHlVKipjxw/06-Four-card-feature?node-id=0%3A1)
 
@@ -60,52 +59,32 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-<!--
-
 ### What I learned
 
-Due to the use of different images for mobile and desktop devices it is possible to use ternary operation in the image path, giving the desired result.
+It is possible to merge or separate css for each element, with common parts being added for all indicated elements, while specific parts only for the desired element.
 
-```jsx
-<img
-  className="top-background"
-  src={widthDevice > 1023 ? backTopDesktop : backTopMobile}
-  alt=""
-/>
-```
-
-To show the rating from 0 to 5 stars it is possible to make an array with 5 positions, filled with false in all positions, then the component receives the numeric value of the rating through the props, iterating over the array and changing the values from false to true according to the value received by the props. If you get 0 none are changed, while 5 all are changed.
-Inside the component's return it traverses the constant, where for each "true" value it renders a filled star, and for each "false" an empty star, forming the note.
-
-````JSX
-
-function StarField({ value, children }) {
-  const mapV = [false, false, false, false, false];
-
-  for (let i = 0; i < value; i++) {
-    mapV[i] = true;
+```CSS
+  .field1,
+  .field2,
+  .field3 {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  return (
-    <div className="field">
-      <div className="stars">
-        {mapV.map((p, index) => {
-          return p === true ? (
-            <img key={index} src={star} alt="" />
-          ) : (
-            <img key={index} src={startOff} alt="" />
-          );
-        })}
-      </div>
-      <div>
-        <p>{children}</p>
-      </div>
-    </div>
-  );
-}
 
-export { StarField };
+  .field1 {
+    padding: 14.9rem 0 0 3.4rem;
+  }
 
-``` -->
+  .field2 {
+    padding: 1rem 0 1.8rem 0;
+  }
+  .field3 {
+    padding: 15rem 0 0 0rem;
+  }
+```
 
 ### Useful resources
 
