@@ -23,7 +23,6 @@ This is the front-end mentor's sixth challenge. The challenge is to build the "F
 Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
-<!--
 
 ## Screenshot
 
@@ -41,9 +40,9 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-### result of my work
+<!-- ### result of my work
 
-<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>  -->
 
 ### Links
 
@@ -111,7 +110,7 @@ export { StarField };
 ### Useful resources
 
 - [react tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html) - This helped me structure the components and build the proposed page.
-- [my figma design](https://www.figma.com/file/N0GBXW15RxbMLwgolSHLND/05---social-proof?node-id=0%3A1) - My figma design for help anyone who wants to build this challenge.
+- [my figma design](https://www.figma.com/file/hsLKzISvAAFDmHlVKipjxw/06-Four-card-feature) - My figma design for help anyone who wants to build this challenge.
 - [CSS units conversor - px to VH/VW/REM](https://it-news.pw/pxtovh/) - CSS units conversor .
 
 ## Author
@@ -120,7 +119,3 @@ export { StarField };
 - Frontend Mentor - [@JCDMeira](https://www.frontendmentor.io/profile/JCDMeira)
 - Instagram - [@jean.meira10](https://www.instagram.com/jean.meira10/)
 - GitHub - [JCDMeira](https://github.com/JCDMeira)
-
-```
-
-```
