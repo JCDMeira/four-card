@@ -1,0 +1,47 @@
+.card {
+  width: 83%;
+  height: 22.2rem;
+  border-radius: 1rem;
+  margin-top: 2.4rem;
+  background: #fafafa;
+  padding: 2.4rem 2.7rem;
+}
+
+.card h1 {
+  font-weight: 600;
+  font-size: 19.8px;
+  line-height: 30px;
+  color: #4c4e61;
+}
+
+.card p {
+  font-weight: normal;
+  font-size: 13.2px;
+  line-height: 22px;
+  color: #a3a5ae;
+  margin-top: 0.4rem;
+  margin-left: 0.1rem;
+}
+
+.card img {
+  margin-top: 3.3rem;
+  margin-right: 0.1rem;
+  float: right;
+  height: 5.7rem;
+}
+
+.color-cyan {
+  border-top: 3px solid #45d3d3;
+}
+
+.color-red {
+  border-top: 3px solid #ea5353;
+}
+
+.color-orange {
+  border-top: 3px solid #fcaf4a;
+}
+
+.color-blue {
+  border-top: 3px solid #549ef2;
+}

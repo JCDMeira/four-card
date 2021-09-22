@@ -55,5 +55,17 @@ html {
   line-height: 25px;
   text-align: center;
   color: #a3a5ae;
-  margin: 1.6rem 0.7rem 0.9rem 0.6rem;
+  margin: 1.6rem 0.7rem 0.9rem 0.65rem;
+}
+
+.fieldCards {
+  width: 100%;
+  height: 102rem;
+  padding: 0.8rem 3.2rem 2.8rem 3.2rem;
+}
+
+.field1,
+.field2,
+.field3 {
+  width: 100vw;
 }
